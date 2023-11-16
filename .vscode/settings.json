@@ -38,7 +38,7 @@
       "*.xml": "html",
       "*.svg": "html",
       "*.html": "html",
-      "django-html": "html", // batisteo.vscode-django
+      "django-html": "html",
       "**/*.html": "html",
       "**/templates/**/*.html": "django-html",
       "**/base_templates/**/*.html": "django-html",

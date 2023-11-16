@@ -5,20 +5,19 @@
 {% include "../partials/_head.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _head.html -->
 
 <!-- Início do corpo da página -->
+
 <body>
     <!-- Cabeçalho da página -->
-    <header>
+    {% include "../partials/_header.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _header.html -->
 
-    </header>
     <!-- Conteúdo principal da página -->
     <main>
 
     </main>
 
     <!-- Rodapé da página -->
-    {% include "../partials/_footer.html" %}  <!-- Django faz a inclusão do conteúdo HTML da partial _footer.html -->
-    
-</body>
+    {% include "../partials/_footer.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _footer.html -->
 
+</body>
 
 </html>

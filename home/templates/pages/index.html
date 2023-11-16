@@ -5,40 +5,10 @@
 {% include "../partials/_head.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _head.html -->
 
 <!-- Início do corpo da página -->
+
 <body>
   <!-- Cabeçalho da página -->
-  <header class="main-header-container">
-    <div class="main-header container">
-      <!-- Título e ícone do site, atrelado à URL que direcionará à Home Page  -->
-      <h1 class="h1" id="main-title">
-        <a href="/">
-          <i class="main-logo"></i>
-          <span>Moai</span>
-        </a>
-      </h1>
-      <!-- Menu de navegação com botões(links) para as outras páginas -->
-      <nav>
-        <!-- Botão do Sobre-->
-        <div class="header-button" id="about-button">
-          <a href="about/">
-            <span>Sobre</span>
-          </a>
-        </div>
-        <!-- Botão do Contato-->
-        <div class="header-button" id="contact-button">
-          <a href="contact/">
-            <span>Contato</span>
-          </a>
-        </div>
-        <!-- Botão do FAQ-->
-        <div class="header-button" id="faq-button">
-          <a href="/faq">
-            <span>FAQ</span>
-          </a>
-        </div>
-      </nav>
-    </div>
-  </header>
+  {% include "../partials/_header.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _header.html -->
 
   <!-- Conteúdo principal da página -->
   <main>
@@ -46,9 +16,9 @@
       <h1>Olá mundo!</h1>
     </div>
   </main>
-  
+
   <!-- Rodapé da página -->
-  {% include "../partials/_footer.html" %}  <!-- Django faz a inclusão do conteúdo HTML da partial _footer.html -->
+  {% include "../partials/_footer.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _footer.html -->
 
 </body>
 
