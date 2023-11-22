@@ -1,12 +1,8 @@
+{% load static %}
+
 <footer>
     <div class="footer-container">
         <div class="footer-content">
-            <div class="footer-logo">
-                <a href="/">
-                    <img src="/images/logo_moai.png" alt="Logo do Moai">
-                    <span>© 2023 Projeto Moai - Todos os direitos reservados</span>
-                </a>
-            </div>
             <div class="footer-links">
                 <div class="footer-link">
                     <a href="/about">
@@ -38,6 +34,12 @@
                         <span>Declaração de acessibilidade</span>
                     </a>
                 </div>
+            </div>
+            <div class="footer-logo">
+                <a href="/">
+                    <img src="{% static 'images/logo-moai.png' %}" alt="Logo do Moai">
+                    <span>© 2023 Projeto Moai - Todos os direitos reservados</span>
+                </a>
             </div>
         </div>
     </div>

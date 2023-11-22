@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -13,9 +15,41 @@
   <!-- Conteúdo principal da página -->
   <main>
     <div class="main-container">
-      <h1>Olá mundo!</h1>
+      <h1>CHEGOU A HORA DE ALAVANCAR SEU NEGÓCIO</h1>
+      <h2>Seja notado, atraia clientes e impulsione suas vendas. Chegou a hora de dar o próximo passo para o sucesso
+        digital. Vamos construir juntos a presença online que seu negócio merece.</h2>
     </div>
+    <img src="{% static 'images/website-construction.png' %}" alt="Desenho da construção de um website">
   </main>
+
+  <section>
+    <!-- Primeira coluna -->
+    <div>
+      <h3>Criação de sites</h3>
+      <p>Transformamos sua visão em realidade digital! Criamos sites personalizados que destacam sua marca, atraindo
+        clientes e impulsionando seu negócio.</p>
+    </div>
+    <!-- Segunda coluna -->
+    <div>
+      <h3>Reformulação de sites</h3>
+      <p>Atualize sua presença online! Deixe-nos transformar seu site antigo em uma plataforma moderna, atraente e
+        funcional. A reformulação de site é a chave para se manter relevante e impactar positivamente seus visitantes.
+      </p>
+    </div>
+    <!-- Terceira coluna -->
+    <div>
+      <h3>Hosting</h3>
+      <p>Garantimos estabilidade e desempenho para o seu site! Nossa hospedagem oferece servidores confiáveis,
+        velocidade excepcional e suporte técnico dedicado. Foque no seu negócio enquanto cuidamos da infraestrutura
+        online.</p>
+    </div>
+    <!-- Quarta coluna -->
+    <div>
+      <h3>Tráfego local</h3>
+      <p>Conecte-se com sua comunidade! Aumentamos sua visibilidade local online, direcionando tráfego relevante para
+        seu negócio. Esteja presente onde importa e alcance clientes próximos de forma eficiente.</p>
+    </div>
+  </section>
 
   <!-- Rodapé da página -->
   {% include "../partials/_footer.html" %} <!-- Django faz a inclusão do conteúdo HTML da partial _footer.html -->
