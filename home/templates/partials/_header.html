@@ -1,36 +1,38 @@
 {% load static %}
 
-<header>
-    <div class="main-header container">
+<header class="main-header-container">
+    <div class="header-items">
         <div>
             <img class="header-logo" src="{% static 'images/logo-moai.png' %}" alt="Logo do Moai">
         </div>
-        <nav>
-            <div class="header-button" id="about-button">
-                <a href="about/">
-                    <span>SOBRE NÓS</span>
-                </a>
-            </div>
-            <div>
-                <a href="/services">
-                    <span>SERVIÇOS</span>
-                </a>
-            </div>
-            <div>
-                <a href="/portfolio">
-                    <span>PORTFÓLIO</span>
-                </a>
-            </div>
-            <div class="header-button" id="contact-button">
-                <a href="contact/">
-                    <span>CONTATO</span>
-                </a>
-            </div>
-            <div class="header-button" id="faq-button">
-                <a href="/faq">
-                    <span>FAQ</span>
-                </a>
-            </div>
+        <nav class="header-nav">
+            <ul>
+                <li class="header-button" id="about-button">
+                    <a href="about/">
+                        <span>SOBRE NÓS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/services">
+                        <span>SERVIÇOS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/portfolio">
+                        <span>PORTFÓLIO</span>
+                    </a>
+                </li>
+                <li class="header-button" id="contact-button">
+                    <a href="contact/">
+                        <span>CONTATO</span>
+                    </a>
+                </li>
+                <li class="header-button" id="faq-button">
+                    <a href="/faq">
+                        <span>FAQ</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </div>
 </header>
