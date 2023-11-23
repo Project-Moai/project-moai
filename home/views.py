@@ -4,12 +4,12 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "./pages/index.html")
+    return render(request, "./home/pages/index.html")
 
 
 def sobre(request):
-    return render(request, "./pages/about.html")
+    return render(request, "./home/pages/about.html")
 
 
 def contato(request):
-    return render(request, "./pages/contact.html")
+    return render(request, "./home/pages/contact.html")
