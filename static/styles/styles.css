@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background:
+        linear-gradient(to bottom, #F4F9FF 49.8125rem, #082245 26.9rem);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-logo {
+    width: 6.125px;
+    height: 6.125px;
+    flex-shrink: 0;
+}
+
+.footer-logo {
+    width: 6.125px;
+    height: 6.125px;
+    flex-shrink: 0;
+}
