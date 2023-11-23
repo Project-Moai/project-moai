@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(#F4F9FF, 0, #F4F9FF 51%, #082245, 51%, #082245 100%) ;
+    display: flex;
+    flex-direction: column;
+}

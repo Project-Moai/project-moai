@@ -1,0 +1,41 @@
+/* ESTILIZAÇÃO DO FOOTER */
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container a, p {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 33px 109px 32px 110px;
+    gap: 32px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 814px;
+}
+
+.footer-items img {
+    width: 38px;
+    height: 38px;
+}
