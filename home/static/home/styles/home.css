@@ -2,9 +2,8 @@
 .main-container {
     display: flex;
     justify-content: center;
-    margin-top: 148px;
-    margin-bottom: 94px;
-    border: red 1px solid;
+    margin-top: 118px;
+    margin-bottom: 118px;
     gap: 118px;
 }
 
@@ -14,7 +13,6 @@
     justify-content: center;
     align-items: center;
     max-width: 433px;
-    border: red 1px solid;
 }
 
 .main-text-content h1 {
@@ -39,7 +37,6 @@
 .columns {
     display: flex;
     justify-content: center;
-    border: red 1px solid;
     gap: 47px;
 }
 
@@ -47,20 +44,19 @@
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 25px 22px 94px 22px;
+    padding: 25px 36px 94px 36px;
     width: 270px;
     height: 340px;
     gap: 20px;
     text-align: center;
-    border-radius: 10px;
-    border: red 1px solid;
+    border-radius: 25px;
 }
 
 .column h3 {
     color: #212121;
     text-align: center;
     font-family: Inter;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -69,7 +65,7 @@
 .column p {
     color: #212121;
     font-family: Inter;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
